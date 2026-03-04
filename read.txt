@@ -1,0 +1,15 @@
+Yohan-Diby-Portfolio/
+├── 📁 node_modules/           # (Généré automatiquement par npm install)
+├── 📁 public/                 # Fichiers statiques accessibles par le navigateur
+│   ├── favicon.ico            # Icône de l'onglet
+│   └── index.html             # LE FICHIER CRITIQUE (Point d'entrée HTML)
+├── 📁 src/                    # Tout votre code source React
+│   ├── 📁 components/         # (Optionnel) Vos composants réutilisables
+│   ├── App.js                 # VOTRE DESIGN PRINCIPAL (Le code que je vous ai donné)
+│   ├── index.js               # LE FICHIER CRITIQUE (Lien entre React et HTML)
+│   └── index.css              # Importation de Tailwind (@tailwind base; etc.)
+├── .gitignore                 # Liste des fichiers à ne pas envoyer sur GitHub
+├── package.json               # LISTE DES DÉPENDANCES ET SCRIPTS (Racine obligatoirement)
+├── package-lock.json          # (Généré automatiquement)
+├── postcss.config.js          # Configuration pour Tailwind
+└── tailwind.config.js         # Configuration des styles Tailwind
