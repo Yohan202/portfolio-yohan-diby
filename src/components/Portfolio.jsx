@@ -26,7 +26,13 @@ const Portfolio = () => {
       description: "Système d'automatisation de la configuration des VLANs sur équipements réseau multi-constructeurs. Interface de monitoring dédiée.",
       tech: ["Ansible", "PHPMyAdmin", "Linux", "Cisco", "HPE"],
       icon: <Terminal className="w-6 h-6 text-purple-400" />
-    }
+    },
+    {
+      title: "Sécurisation Réseau",
+      description: "Installation et configuration d'un Firewall PFSense incluant la gestion des accès VPN, le filtrage de contenu et la détection d'intrusions.",
+      tech: ["PFSense", "OpenVPN", "Sécurité", "Réseau"],
+      icon: <Briefcase className="w-6 h-6 text-orange-400" />
+    },
   ];
 
   return (
